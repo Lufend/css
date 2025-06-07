@@ -1,0 +1,17 @@
+/*
+Use the correct background property to make the background image NOT scroll with the rest of the page.
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  : ;
+}
+</style>
+*/
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-attachment: fixed;
+}
+</style>

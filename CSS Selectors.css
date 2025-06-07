@@ -1,0 +1,44 @@
+/*Set the text color to red, for all <p> elements.*/
+<style>
+p {
+  color: red;
+}
+</style>
+
+/*Set the text color to red, for the element with id="para1".*/
+<style>
+ #para1{
+   color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p id="para1">This is a paragraph</p>
+</body>
+
+/*Set the text color to red, for elements with class="colortext".*/
+<style>
+ .colortext{
+   color: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+</body>
+
+/*Drag and drop the correct "sign" to group two selectors.*/
+h1, h2 { text-align: center; }
+
+/*Drag and drop the correct CSS properties for the id selector to align text to the center and change its text color to red.*/
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+
